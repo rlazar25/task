@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Početna</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3fd9448c9c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="images/rl-logo.png" alt="Ovo je moj logo">
+        </div>  
+
+        <nav >
+            <ul id="sidemenu">
+                <li><a href="#">Početna</a></li>
+                <li><a href="pages/portfolio.html">Portfolio</a></li>
+                <li><a href="pages/kontakt.html">Kontakt</a></li>
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+            </ul>
+            
+        </nav>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </div><!--end container-->
+</header><!--end header-->
+
+<div class="hero">
+    <div class="container">
+        <div class="containerImg">
+            <img src="images/businessman-holding-suitcase.png" alt="3D ilustracija, covek nosi torbu">
+        </div>
+        <div class="containerText">
+            <div class="heroText">    
+                <p>Ja sam<br> <span class="crvena"> Lazar Radosavljević</span> <br> <span class="manja-slova"></span> web & UI/UX dizajner</p>
+            </div><!--end heroText-->
+        </div>
+    </div><!--end container-->
+</div><!--end hero-->
+
+<div class="oMeni">
+<div class="container">
+    <h1>O Meni</h1>
+    <div class="wrapper">
+        <div class="wrappetText">
+            <h2>O meni:</h2>
+    <p>Ja sam Lazar Radosavljević iz Lazarevca. Imam 22 godine, studiram menadžment, završio sam Web Design na IT Akademiji i krenuo na front-end JavaScript. Volim izazove, želim da napredujem i usavršavam svoje znanje i iskustvo u radu. U slobodno vreme planinarim, kampujem i trčim. Volim da upravljam dronom i da uredjujem slike i snimke.  </p>
+    <h2>Studije:</h2>
+<p>FAM - Fakultet za menadžment: 2019 – u toku, IV godina.</p>
+    <h2>Kursevi:</h2>
+<p>IT Akademija, Web Design: 2021 – 2022.</p>
+<p>IT Akademija, Front-end JavaScript: 2022 – u toku.</p>
+<h2>Veštine:</h2>
+<p>Adobe Photoshop, Adobe Illustrator, Adobe XD, Figma, HTML, CSS, JavaScript, 
+SEO, Digitalni Marketing.</p>
+<p>Alati za pravljenje sajtova: WordPress, Webflow</p>
+</div>
+    <img src="images/social-media-influencer.png" alt="">
+
+</div>
+</div>
+</div>
+
+<section class="socials">
+    <div class="container">
+        <h2>Zaprati me:</h2>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+
+    <div class="container">
+        <p>
+            <span class="crvena"> Lazar Radosavljević</span> &copy; copyright
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+
+
+<script>
+
+    let sidemenu = document.getElementById('sidemenu');
+
+    function openmenu(){
+        sidemenu.style.right = '0'
+    }
+    
+    function closemenu(){
+        sidemenu.style.right = '-200px'
+    }
+
+
+</script>
+
+</body>
+</html>
